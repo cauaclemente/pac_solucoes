@@ -1,4 +1,5 @@
 import React from "react";
+import './layout.css'
 import Content from "../components/content";
 import Formulario from "../components/formulario";
 import Empresa from "../components/empresa";

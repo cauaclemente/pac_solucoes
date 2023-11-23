@@ -1,0 +1,114 @@
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #005566a4;
+    width: 100%;
+}
+
+.header-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    width: 35%;
+    display: flex;
+}
+
+nav {
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    color: white;
+    padding: 8%;
+}
+
+.nav-item:hover {
+    color: green;
+    transition: 0.5s;
+    transform: scale(1.2) scaleX(1.1) scaleY(1.5);
+}
+
+i {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+i:hover {
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.fa-brands {
+    color: #ec0b8e;
+}
+
+.fa-brands2 {
+    color: #088eff;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-top: 1%;
+}
+
+.nav_bar {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .nav_bar {
+        display: block;
+        margin-right: -20%;
+    }
+
+    .nav-menu {
+        position: fixed;
+        z-index: 1;
+        top: 7vh;
+        right: 0;
+        width: 30%;
+        height: 28vh;
+        text-align: center;
+        background-color: #001559b6;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+
+    li {
+        margin-top: 10px;
+    }
+
+    .nav-active {
+        transform: translateX(0);
+    }
+
+    #logo {
+        width: 50%;
+    }
+}

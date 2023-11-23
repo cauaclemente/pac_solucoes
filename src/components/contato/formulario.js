@@ -1,3 +1,5 @@
+import React from 'react';
+import './formulario.css'
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 

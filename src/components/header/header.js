@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './header.css'
 import {FaInstagram, FaFacebook} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Logo from '../../src/assets/logo2.png';

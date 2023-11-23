@@ -1,3 +1,4 @@
+import '../styles/content.css'
 import Quarto from '../../src/assets/epoxi-quarto.jpg';
 import Empresas from '../../src/assets/epoxi-empresa.jpg';
 import Quadra from '../../src/assets/epox-quadra.jpg'

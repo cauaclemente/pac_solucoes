@@ -1,3 +1,5 @@
+import React from 'react';
+import './fotos.css';
 import Estacionamento from "../assets/epox-estacionamento.jpg";
 import BanheiroGrande from "../assets/epoxi-banheiro-grande.jpg";
 import Shopping from "../assets/epoxi-shopping.jpg";
