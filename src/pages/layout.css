@@ -3,7 +3,7 @@
 }
 
 .imagem {
-  background-image: linear-gradient(to bottom, rgba(30, 0, 77, 0.24), #004a5944), url("src/assets/epoxi-index.jpg");
+  background-image: linear-gradient(to bottom, rgba(30, 0, 77, 0.24), #004a5944), url("../assets/epoxi-index.jpg");
   height: 96vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,21 +35,20 @@
   border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  transition: all 1s ease-in;
 }
 
 .button-contact:hover {
   cursor: pointer;
-  animation: scaleAnimation 0.8s alternate infinite;
+  transform: scale(1.1);
+  color: #000;
 }
 
-@keyframes scaleAnimation {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.07);
-  }
-}
+
 
 @media (max-width: 768px) {
   .hero h1 {

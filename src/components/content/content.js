@@ -1,7 +1,7 @@
-import '../styles/content.css'
-import Quarto from '../../src/assets/epoxi-quarto.jpg';
-import Empresas from '../../src/assets/epoxi-empresa.jpg';
-import Quadra from '../../src/assets/epox-quadra.jpg'
+import './content.css'
+import Quarto from '../../assets/epoxi-quarto.jpg'
+import Empresas from '../../assets/epoxi-empresa.jpg';
+import Quadra from '../../assets/epox-quadra.jpg'
 
 function Content() {
     return (

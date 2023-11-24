@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { createPath } from 'react-router';
 import Home1 from './pages/home';
-import Fotos from './components/fotos';
-import Header from './components/header';
-import Empresa from './components/empresa';
-import Formulario from './components/formulario';
+import Fotos from './components/fotos/fotos'
+import Header from './components/header/header';
+import Empresa from './components/empresa/empresa';
+import Formulario from './components/contato/formulario'
 
 function App() {
   return (

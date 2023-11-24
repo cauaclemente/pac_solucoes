@@ -7,7 +7,7 @@ function Empresa() {
         <div className="descriçao">
             <div className="card-sobre">
             <h2>
-                Sobre a <a>Empresa</a>
+                Sobre a Empresa
             </h2>
             <p>
             Fundada em 1994, nossa empresa é especializada na aplicação de epóxi, tecnocimento e revestimentos à base de resina de epóxi.

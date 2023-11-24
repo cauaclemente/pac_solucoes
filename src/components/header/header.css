@@ -7,7 +7,7 @@ header {
 }
 
 .header-content {
-    width: 80%;
+    width: 65%;
     display: flex;
     align-items: center;
 }
@@ -36,14 +36,14 @@ nav {
     transform: scale(1.2) scaleX(1.1) scaleY(1.5);
 }
 
-i {
+a {
     font-size: 25px;
     color: white;
     cursor: pointer;
     padding-left: 30px;
 }
 
-i:hover {
+a:hover {
     color: white;
     transition: 0.5s;
     transform: scale(1.2);
@@ -81,6 +81,10 @@ i:hover {
 }
 
 @media screen and (max-width: 768px) {
+    .header-content {
+        width:80%
+    }
+    
     .nav_bar {
         display: block;
         margin-right: -20%;
@@ -92,7 +96,7 @@ i:hover {
         top: 7vh;
         right: 0;
         width: 30%;
-        height: 28vh;
+        height: 32vh;
         text-align: center;
         background-color: #001559b6;
         flex-direction: column;
@@ -110,5 +114,11 @@ i:hover {
 
     #logo {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .nav-menu {
+        height: 35vh;
     }
 }

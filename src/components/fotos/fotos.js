@@ -1,11 +1,11 @@
 import React from 'react';
 import './fotos.css';
-import Estacionamento from "../assets/epox-estacionamento.jpg";
-import BanheiroGrande from "../assets/epoxi-banheiro-grande.jpg";
-import Shopping from "../assets/epoxi-shopping.jpg";
-import banheiroRosa from "../assets/epoxi-banheiro-rosa.jpg";
-import Sala from "../assets/epoxi-sala.jpg";
-import teto from "../assets/epoxi-teto.jpg";
+import Estacionamento from "../../assets/epox-estacionamento.jpg";
+import BanheiroGrande from "../../assets/epoxi-banheiro-grande.jpg";
+import Shopping from "../../assets/epoxi-shopping.jpg";
+import banheiroRosa from "../../assets/epoxi-banheiro-rosa.jpg";
+import Sala from "../../assets/epoxi-sala.jpg";
+import teto from "../../assets/epoxi-teto.jpg";
 
 function Fotos() {
     return (

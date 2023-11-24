@@ -1,0 +1,103 @@
+footer {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0;
+    gap: 24px;
+    background-color: #023a35
+}
+
+.footer-icons {
+    display:flex;
+    margin-top: 5%;
+}
+
+.footer-icons a:hover {
+    animation: transiçao 0.8s infinite alternate
+}
+
+
+@keyframes transiçao {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.direitos {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo-footer img {
+    text-align: center;
+    width: 250px;
+}
+
+.text-info {
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 600px ) {
+    .text-info {
+        font-size: 17px;
+    }
+   
+    .logo-footer img {
+        width: 190px;
+    }
+  
+    .direitos {
+        font-size: 17px;
+    }
+
+    footer {
+        height: 60%;
+    }
+
+}
+
+.btn-whats {
+    position: fixed;
+    bottom: 24px;
+    right: 14px;
+    z-index: 99;
+}
+
+.fa-whats {
+    width: 70px;
+    transition: transform 0.4s;
+    background-color: green;
+}
+
+img:hover {
+    transform: scale(1.15);
+}
+
+.btn-whats .text-whats {
+visibility: hidden;
+position: absolute;
+width: 120px;
+top: 10;
+left: -144px;
+padding: 6px;
+border-radius: 8px;
+text-align: center;
+opacity: 0;
+transition: opacity 0.4s;
+background-color: #000;
+color: #fff;
+}
+
+.btn-whats:hover .text-whats{
+visibility: visible;
+opacity: 1;
+}
+

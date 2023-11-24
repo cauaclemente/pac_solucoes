@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './header.css'
 import {FaInstagram, FaFacebook} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import Logo from '../../src/assets/logo2.png';
+import Logo from '../../assets/logo2.png';
 
 
 function Header() {
@@ -19,12 +19,12 @@ function Header() {
         <header>
             <nav className="header-content ">
                 <div className="header-icons">
-                    <i className="fa-brands" href="link do insta" target="_blank">
+                    <a className="fa-brands" href="https://www.instagram.com/pedroalmeidapac/" target="_blank">
                       <FaInstagram />
-                    </i>
-                    <i className="fa-brands2" href="link do Facebook" target="_blank">
+                    </a>
+                    <a className="fa-brands2" href="https://www.facebook.com/PacRevest?mibextid=LQQJ4d" target="_blank">
                         <FaFacebook />
-                    </i>
+                    </a>
                 </div>
                     <img id="logo" src={Logo} alt="" />
             <ul className= {active}>

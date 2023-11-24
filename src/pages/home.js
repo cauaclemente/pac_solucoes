@@ -1,10 +1,10 @@
 import React from "react";
 import './layout.css'
-import Content from "../components/content";
-import Formulario from "../components/formulario";
-import Empresa from "../components/empresa";
-import Fotos from "../components/fotos";
-
+import Content from "../../src/components/content/content";
+import Formulario from "../../src/components/contato/formulario";
+import Empresa from "../../src/components/empresa/empresa"
+import Fotos from "../../src/components/fotos/fotos";
+import Footer from "../../src/components/footer/footer"
 
 
 
@@ -20,6 +20,7 @@ function Home1() {
             <a href="https://chat.openai.com/" 
               class="button-contact" target="_blank" style={{ textDecoration: 'none' }}>
                  Faça o seu orçamento
+                 
             </a>
           </div>
         </section>   
@@ -32,7 +33,8 @@ function Home1() {
        <Fotos />
        <br>
        </br>
-        <Formulario />
+       <Formulario />
+       <Footer />
     </>
     )
 }

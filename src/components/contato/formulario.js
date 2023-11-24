@@ -11,13 +11,19 @@ function Formulario() {
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(false);
 
+
+  const estiloPlaceholder = {
+    fontSize: '22px',
+  };
+
   const form = useRef(null);
 
   function sendEmail(e) {
     e.preventDefault();
 
     if (name === '' || email === '' || message === '') {
-      setError('Preencha todos os campos');
+      setError && alert('Preencha todos os campos');
+      
       return;
     }
 
@@ -33,11 +39,14 @@ function Formulario() {
       .send('service_ipvum3b', 'template_vr9edao', templateParams, 'fW-9x7noIkhe3sTqP')
       .then(
         (response) => {
-          console.log('Email enviado', response.status, response.text);
+          setSuccess ('Email enviado', response.status, response.text);
           setName('');
           setEmail('');
           setMessage('');
-          setSuccess(true);
+          setTimeout(() =>{
+            setSuccess('')
+          },2000) 
+          
         },
         (err) => {
           console.error('Erro', err);
@@ -75,15 +84,17 @@ function Formulario() {
             />
             <label>Deixe sua mensagem:</label>
             <textarea
-              className="textarea"
+              className="deixe-sua-msg"
               placeholder="Digite sua mensagem..."
               onChange={(e) => setMessage(e.target.value)}
               value={message}
               name="message"
             />
-            <input className="button-form" type="submit" value="Enviar" />
+            <input className="button-form" type="submit" value="Enviar" style={estiloPlaceholder} />
           </form>
-    
+            {loading && <p style={{color: "white" , fonteSize : "10px" }}> Enviando email...</p>}
+            {error && <p style={{color : "red"}}>{error}</p>}
+            {success && <p style={{color : "green" , fonteSize : "10px"}}>  Email enviado com sucesso</p>}
         </div>
       </div>
     </>

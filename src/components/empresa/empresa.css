@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #015366ce, #004a59);
 }
 
 .card-sobre {
@@ -32,9 +31,6 @@ p {
     color: #000;
 }
 
-a {
-    color: #4e0606;
-}
 
 @media screen and (max-width: 768px) {
     p {
