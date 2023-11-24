@@ -27,7 +27,7 @@ nav {
 .nav-item {
     list-style: none;
     color: white;
-    padding: 8%;
+    padding: 8%;   
 }
 
 .nav-item:hover {
@@ -120,5 +120,11 @@ a:hover {
 @media screen and (max-width: 420px) {
     .nav-menu {
         height: 35vh;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .nav-menu {
+        height: 45vh;
     }
 }
