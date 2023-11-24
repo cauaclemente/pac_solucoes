@@ -60,7 +60,11 @@ p {
     }
 }
 
-
+@media screen and (max-width: 400px) {
+    .descriçao {
+        margin-top: 50%;
+    }
+}
 
 @media screen and (max-width: 350px) {
     .descriçao {

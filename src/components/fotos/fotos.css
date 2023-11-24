@@ -63,7 +63,12 @@
 
 @media screen and (max-width: 400px) {
     .card-pai {
-        margin-top: 70%;
+        margin-top: 80%;
         height: 120vh;
     }
+
+    .text-fotos {
+        font-size: 25px;
+    }
+
 }

@@ -1,5 +1,6 @@
-import React from 'react'
-import './empresa.css'
+import React from 'react';
+import './empresa.css';
+
 
 function Empresa() {
     return (

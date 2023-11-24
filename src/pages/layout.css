@@ -4,7 +4,7 @@
 
 .imagem {
   background-image: linear-gradient(to bottom, rgba(30, 0, 77, 0.24), #004a5944), url("../assets/epoxi-index.jpg");
-  height: 96vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -54,5 +54,13 @@
   .hero h1 {
     font-size: 28px;
     margin: 0 10px;
+  }
+
+
+}
+
+@media (max-width: 420px) {
+  .button-contact {
+    margin-top: 8%;
   }
 }

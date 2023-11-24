@@ -6,7 +6,7 @@ footer {
     justify-content: center;
     padding: 14px 0;
     gap: 24px;
-    background-color: #023a35
+    background-color: #023a35b4
 }
 
 .footer-icons {
@@ -67,18 +67,17 @@ footer {
 .btn-whats {
     position: fixed;
     bottom: 24px;
-    right: 14px;
+    right: 20px;
     z-index: 99;
 }
 
-.fa-whats {
+img {
     width: 70px;
     transition: transform 0.4s;
-    background-color: green;
 }
 
 img:hover {
-    transform: scale(1.15);
+    transform: scale(1.09);
 }
 
 .btn-whats .text-whats {
@@ -86,7 +85,7 @@ visibility: hidden;
 position: absolute;
 width: 120px;
 top: 10;
-left: -144px;
+left: -110px;
 padding: 6px;
 border-radius: 8px;
 text-align: center;
@@ -94,10 +93,21 @@ opacity: 0;
 transition: opacity 0.4s;
 background-color: #000;
 color: #fff;
+font-size: 15px;
+text-transform: uppercase;
 }
 
 .btn-whats:hover .text-whats{
 visibility: visible;
 opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 50px;
+    }
+    .btn-whats .text-whats {
+        font-size: 13px;
+    }
 }
 

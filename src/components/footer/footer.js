@@ -1,6 +1,7 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram,} from "react-icons/fa";
 import Logo from '../../assets/logo2.png';
+import Whats from '../../assets/whatssapp.svg';
 import './footer.css'
 
 function Footer() {
@@ -26,12 +27,12 @@ function Footer() {
                 </div>
                 <p className="direitos"> Copyrigth © 2023 - Todos os direitos reservados.</p>
             </footer>
-            <a href="link do whats"
+            <a href="https://api.whatsapp.com/send?phone=5511977909698&text=ol%C3%A1%20Vanessa%20vim%20pelo%20site"
             className="btn-whats"
             target="_blank" > 
-            <a className="fa-whats">
-            <FaWhatsapp />
-            </a>
+            <img src={Whats}
+            alt="botão whats"
+            />
             <span className="text-whats"> Solicite seu orçamento</span>
             </a>
         </>
