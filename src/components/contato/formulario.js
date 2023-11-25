@@ -60,9 +60,9 @@ function Formulario() {
 
   return (
     <>
-      <div className="formulario">
-        <h1 className="title">Entre em contato</h1>
-        <div className="formulario-card">
+      <div className="formulario" >
+        <h1 className="title" data-aos="zoom-out" data-aos-duration="2500">Entre em contato</h1>
+        <div className="formulario-card" data-aos="zoom-out" data-aos-duration="2500">
           <form ref={form} className="form" onSubmit={sendEmail}>
             <label>Seu nome:</label>
             <input

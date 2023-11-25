@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { createPath } from 'react-router';
 import Home1 from './pages/home';
 import Fotos from './components/fotos/fotos'
 import Header from './components/header/header';

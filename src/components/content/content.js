@@ -7,13 +7,13 @@ import Quadra from '../../assets/epox-quadra.jpg';
 function Content() {
     return (
         <>
-            <section classname="services">
+            <section classname="services" data-aos="zoom-in" data-aos-duration="2000">
                 <div className="services-content">
                     <h1 className="serviço">Confira um pouco do nossos serviços!</h1>
                 </div>
                 <section className="exemplos">
                 <div className="amostras">
-                    <img id="foto-amostra" src={Quarto} alt="imagem de banheiro" />
+                    <img id="foto-amostra" src={Quarto} alt="imagem de banheiro"/>
                 <div className="amostra-info">
                     <strong>A solução para a sua casa</strong>
                     </div>   

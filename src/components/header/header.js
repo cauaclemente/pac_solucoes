@@ -17,7 +17,7 @@ function Header() {
 
     return (
         <header>
-            <nav className="header-content ">
+            <nav className="header-content " >
                 <div className="header-icons">
                     <a className="fa-brands" href="https://www.instagram.com/pedroalmeidapac/" target="_blank">
                       <FaInstagram />
@@ -25,7 +25,7 @@ function Header() {
                     <a className="fa-brands2" href="https://www.facebook.com/PacRevest?mibextid=LQQJ4d" target="_blank">
                         <FaFacebook />
                     </a>
-                </div>
+                    </div>
                     <img id="logo" src={Logo} alt="" />
             <ul className= {active}>
             <Link className="nav-item" style={{ textDecoration: 'none' }} to = '/'>

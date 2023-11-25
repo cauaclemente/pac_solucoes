@@ -14,13 +14,14 @@ function Home1() {
       <>
         <section className='hero'>
           <div className="imagem">
+          <div  data-aos="fade-down-left" data-aos-duration="2500">
             <h1 className='texto-principal'>Transformamos ambientes residenciais e comerciais com nossas tintas epóxi personalizadas,
               trazendo cores e resistência onde quer que você esteja
             </h1>
-            <a href="https://api.whatsapp.com/send?phone=5511980249542&text=Ol%C3%A1%20Carol,%20gostaria%20de%20fazer%20um%20or%C3%A7amento" 
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=5511980249542&text=Ol%C3%A1%20Carol,%20gostaria%20de%20fazer%20um%20or%C3%A7amento"
               class="button-contact" target="_blank" style={{ textDecoration: 'none' }}>
                  Faça o seu orçamento
-                 
             </a>
           </div>
         </section>   

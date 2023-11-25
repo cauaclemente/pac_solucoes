@@ -5,6 +5,9 @@ import './empresa.css';
 function Empresa() {
     return (
         <>
+        <div data-aos="fade-down-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
         <div className="descriçao">
             <div className="card-sobre">
             <h2>
@@ -23,6 +26,7 @@ function Empresa() {
              Estamos ansiosos para trabalhar com você e transformar seu espaço. Entre em contato conosco 
              hoje mesmo para saber mais sobre nossos serviços e como podemos atender às suas necessidades de revestimento.
             </p>
+            </div>
             </div>
         </div>
         </>
